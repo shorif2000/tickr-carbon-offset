@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Run server locally
    ```shell
-    php artisan serve
+    php artisan serve &
    ```
 
 
