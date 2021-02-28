@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple steps.
 - Get next 5 months membership schedule dates
 
     ```shell
-    curl http://localhost:8000/carbon-offset-schedule?subscriptionStartDate=2021-01-07&scheduleInMonths=5
+    curl http://localhost:8000/api/carbon-offset-schedule?subscriptionStartDate=2021-01-07&scheduleInMonths=5
     ```
 
 - To run tests
