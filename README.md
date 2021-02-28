@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/shorif2000/tickr-carbon-offset.git
    ```
-2. Install NPM packages
+2. Install packages
    ```sh
    composer update
    ```
@@ -44,9 +44,14 @@ To get a local copy up and running follow these simple steps.
 
 - Get next 5 months membership schedule dates
 
-`curl http://localhost:8000/carbon-offset-schedule?subscriptionStartDate=2021-01-07&scheduleInMonths=5`
+    ```shell
+    curl http://localhost:8000/carbon-offset-schedule?subscriptionStartDate=2021-01-07&scheduleInMonths=5
+    ```
 
-
+- To run tests
+    ```shell
+    php artisan tests
+    ```
 
 <!-- CONTRIBUTING -->
 ## Contributing
