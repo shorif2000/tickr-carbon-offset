@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple steps.
 
 - To run tests
     ```shell
-    php artisan tests
+    php artisan test --testsuite=Feature
     ```
 
 <!-- CONTRIBUTING -->
